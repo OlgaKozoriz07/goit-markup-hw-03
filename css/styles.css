@@ -14,8 +14,12 @@ ul, ol {
     margin: 0;
 }
 
+img {
+    display: block;
+}
+
 .container {
-    width: 1150px;
+    width: 1158px;
     padding: 0 15px;
     margin: 0 auto;
 }
@@ -143,6 +147,11 @@ ul, ol {
     overflow: hidden;
 }
 
+.section{
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
 .features-container{
         font-weight: 400;
         font-size: 16px;
@@ -156,6 +165,7 @@ ul, ol {
 .features-item {
     width: calc((100% - 3 * 24px) / 4);
 }
+
 
 .features-title{
     font-weight: 500;
@@ -175,6 +185,7 @@ ul, ol {
 
 .our-team {
     background-color: #F4F4FD;
+    
 }
 .team{
         font-weight: 700;
@@ -196,6 +207,10 @@ ul, ol {
 }
 .team-list-item {
     background-color:#fff;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 8px;
 
 }
 
@@ -205,7 +220,7 @@ ul, ol {
         line-height: 1.2;
         letter-spacing: 0.02em;
         color: #2e2f42;
-}
+    }
 
 .team-list-text{
         font-weight: 400;
@@ -213,7 +228,9 @@ ul, ol {
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #434455;
+        text-align: center;
 }
+
 
 .our-portfolio{
     font-weight: 700;
@@ -230,12 +247,19 @@ ul, ol {
     display: flex;
     flex-wrap: wrap;
     column-gap: 24px;
-    row-gap: 24px;
-    text-align: center;
+    row-gap: 48px;
+
+    
+
 }
 
 .portfolio-section-item{
     background-color:#fff;
+    text-align: center;
+    flex-direction: column;
+    width: calc((100% - 2 * 24px) / 3);
+    padding: 24px;
+
 }
 
 .portfolio-section-title{
@@ -244,6 +268,8 @@ ul, ol {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    text-align: left;
+
 }
 
 .portfolio-section-text{
@@ -252,6 +278,9 @@ ul, ol {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color:#434455;
+    text-align: left;
+    border-bottom: 1px solid rgb(231, 233, 252);
+
 }
 
 .footer{
@@ -265,6 +294,8 @@ ul, ol {
         letter-spacing: 0.03em;
         text-transform: uppercase;
         color: #4d5ae5;
+        display: inline-block;
+        margin-bottom: 16px;
 }
 
 .logo-part-two{

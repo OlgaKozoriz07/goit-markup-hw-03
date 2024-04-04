@@ -285,6 +285,7 @@ img {
 
 .footer{
     background-color: #2E2F42;
+
 }
 .logo-two{
     font-family: "Raleway", sans-serif;
@@ -305,9 +306,11 @@ img {
 .footer-text{
         font-weight: 400;
         font-size: 16px;
-        line-height: 150%;
+        line-height: 1,5;
         letter-spacing: 0.02em;
         color: #F4F4FD;
+        text-align: left;
+        display: flex;
+        gap: 24px;
 }
-
 

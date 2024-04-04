@@ -10,6 +10,27 @@ a{
 
 ul, ol {
     list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    width: 1150px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.header{
+    border-bottom: 1px solid rgb(231, 233, 252);
+}
+.header-container{
+    display: flex;
+    align-items: center;
+}
+
+.navigation{
+    display: flex;
+    align-items: center;
 }
 
 .logo {
@@ -20,10 +41,17 @@ ul, ol {
         letter-spacing: 0.03em;
         text-transform: uppercase;
         color: #4d5ae5;
+        margin-right: 76px;
+
 }
 
 .logo-part {
     color: #2e2f42;
+}
+
+.nav-list{
+    display: flex;
+    gap: 40px;
 }
 
 .nav-link {
@@ -33,6 +61,8 @@ ul, ol {
         letter-spacing: 0.02em;
         color:#2e2f42;
         cursor:pointer;
+        padding: 24px 0;
+        display: block;
 }
 .nav-link:hover,
 .nav-link:focus{
@@ -41,6 +71,12 @@ ul, ol {
 
 .address {
     font-style: normal;
+    margin-left: auto;
+}
+
+.address-list{
+    display: flex;
+    gap: 40px;
 }
 
 .address-link {
@@ -56,6 +92,8 @@ ul, ol {
 
 .hero{
     background-color: #2E2F42;
+    padding-top: 188px;
+    padding-bottom: 188px;
 }
 
 .hero-title{
@@ -65,7 +103,10 @@ ul, ol {
     letter-spacing: 0.02em;
     text-align: center;
     color: #fff;
+    width: 496px;
+    margin: 0 auto;
 }
+
 
 .button{
         font-weight: 500;
@@ -75,10 +116,31 @@ ul, ol {
         color: #fff;
         background: #4D5AE5;
         cursor: pointer;
+        width: 169px;
+        height: 56px;
+        border-radius: 4px;
+        border: none;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 48px;
+        display: block;
 }
 .button:hover,
 .button:focus{
     background-color: #404BBF;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
 }
 
 .features-container{
@@ -87,6 +149,12 @@ ul, ol {
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #434455;
+        display: flex;
+        gap: 24px;
+}
+
+.features-item {
+    width: calc((100% - 3 * 24px) / 4);
 }
 
 .features-title{
@@ -105,7 +173,7 @@ ul, ol {
     color: #434455;
 }
 
-.our-team{
+.our-team {
     background-color: #F4F4FD;
 }
 .team{
@@ -116,12 +184,21 @@ ul, ol {
         text-align: center;
         text-transform: capitalize;
         color:#2E2F42;
+        text-align: center;
+        margin: 0 auto;
+        margin-bottom: 72px;
+    
 }
 
-.team-list-item{
+.team-list{
+    display: flex;
+    text-align: center;
+    gap: 24px;
+}
+.team-list-item {
     background-color:#fff;
-}
 
+}
 
 .team-list-title{
         font-weight: 500;

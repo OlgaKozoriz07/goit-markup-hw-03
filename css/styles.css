@@ -94,14 +94,11 @@ img {
     color: #404bbf;
 }
 
-.hero{
+.hero-section{
     background-color: #2E2F42;
+    padding: 188px 0;
 }
 
-.hero section{
-    padding-top: 188px;
-    padding-bottom: 188px;
-}
 
 .hero-title{
     font-weight: 700;
